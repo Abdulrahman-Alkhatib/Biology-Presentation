@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+body {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Markazi Text", serif;
+  background-image: url(/static/images/regal.png);
+}
+main {
+  max-width: 700px;
+  margin: auto;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  font-family: "Markazi Text", serif;
+}
+.styled-table thead tr {
+  background-color: rgb(0, 185, 99);
+  color: #ffffff;
+  text-align: center;
+  font-size: 21px;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border-left: 1px solid rgb(0, 185, 99);
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid rgb(0, 185, 99);
+}
+.styled-table tbody tr td.active-row {
+  font-weight: bold;
+  color: rgb(0, 185, 99);
+  font-size: 23px;
+}
+p {
+  font-size: 22px;
+  font-weight: 700;
+}
+img {
+  border-radius: 10px;
+  width: 175px;
+  height: 175px;
+  -webkit-box-shadow: -1px 7px 20px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 7px 20px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 7px 20px -1px rgba(0, 0, 0, 0.75);
+}
+a {
+  background-color: #35a739; /* Green */
+  color: white;
+  border: 2px solid #35a739;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 6px 24px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:hover {
+  background-color: rgb(36, 151, 36);
+}
